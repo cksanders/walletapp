@@ -1,0 +1,30 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+input {
+    padding-left: 10px;
+}
+
+#walletForm .input-group {
+    margin-bottom: 10px;
+}
+
+.page-header {
+    margin-top: -5px;
+}

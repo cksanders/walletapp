@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+  <head>
+    <!-- inject:metadata -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wallet App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- endinject -->
+
+    <!-- inject-components:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- endinject -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="app.css">
+    <!-- endinject -->
+  </head>
+  <body role="document">
+
+    <div data-ng-include="'topnav/topnav.html'"></div>
+    <div ng-view class="container theme-showcase" role="main"></div>
+
+    <!-- inject-vendor:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-i18n/angular-locale_en-gb.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <!-- Bootstrapping -->
+    <script src="app.module.js"></script>
+    <script src="app.route.js"></script>
+
+    <!-- core module -->
+    <script src="core/core.module.js"></script>
+
+    <!-- topnav module -->
+    <script src="topnav/topnav.module.js"></script>
+    <script src="topnav/topnav.constants.js"></script>
+    <script src="topnav/topnav.controller.js"></script>
+
+    <!-- wallet module -->
+    <script src="wallet/wallet.module.js"></script>
+    <script src="wallet/wallet.route.js"></script>
+    <script src="wallet/wallet.constants.js"></script>
+    <script src="wallet/wallet.controller.js"></script>
+    <!-- endinject -->
+
+    <!-- inject-components:js -->
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
+    <!-- endinject -->
+  </body>
+</html>
